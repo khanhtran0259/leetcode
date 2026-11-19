@@ -23,3 +23,4 @@ target/
 .vscode/
 .idea/
 *.iml
+clean_class_files.py

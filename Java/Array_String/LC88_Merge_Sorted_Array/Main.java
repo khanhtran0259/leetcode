@@ -69,7 +69,7 @@ public class Main {
     private static int passedCount = 0;
     private static int totalCount = 0;
 
-    public static void runT est(int testNum, String description, int[] nums1, int m, int[] nums2, int n, int[] expected) {
+    public static void runTest(int testNum, String description, int[] nums1, int m, int[] nums2, int n, int[] expected) {
         totalCount++;
         Solution sol = new Solution();
         sol.merge(nums1, m, nums2, n);
